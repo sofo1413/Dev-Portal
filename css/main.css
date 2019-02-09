@@ -1,0 +1,13 @@
+body {
+  background-color: rgba(62, 139, 81, 0.59); }
+
+img {
+  height: 25%;
+  width: 25%; }
+
+ul {
+  display: inline-block; }
+  ul li {
+    list-style: none; }
+
+/*# sourceMappingURL=main.css.map */

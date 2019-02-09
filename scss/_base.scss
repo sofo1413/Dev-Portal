@@ -1,0 +1,13 @@
+body {
+	background-color: $bgcolor;
+}
+img {
+	height: $thumbheight;
+	width: $thumbwidth;
+}
+ul {
+	display: inline-block;
+	li {
+		list-style: none;
+	}
+}
