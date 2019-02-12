@@ -1,0 +1,10 @@
+@mixin box {
+	background-color: white;
+	border: 2px solid lightgrey;
+	padding: 15px;
+	@include rounded;
+}
+
+@mixin rounded {
+	border-radius: $niceedge;
+}

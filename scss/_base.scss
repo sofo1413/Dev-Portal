@@ -1,13 +1,60 @@
+			figcaption {
+				font-family: 'Montserrat', sans-serif;
+			}
+
 body {
 	background-color: $bgcolor;
-}
-img {
-	height: $thumbheight;
-	width: $thumbwidth;
-}
-ul {
-	display: inline-block;
-	li {
-		list-style: none;
+	header {
+	text-align: $headeralign;
+		h1 {
+			font-size: $headersize;
+			font-family: 'Staatliches', cursive;
+		}
+		h2 {
+			font-family: 'Montserrat', sans-serif;
+		}
 	}
 }
+
+#love {
+	font-family: 'Sacramento', cursive;
+	font-size: $subfontsize;
+}
+
+#exquisite {
+	font-family: 'Major Mono Display', monospace; 
+	font-size: $subfontexqisite;
+	text-align: $headeralign;
+}
+
+section {
+	div {
+		margin-left: auto;
+	    margin-right: auto;
+	    width: 48%;
+	    display: inline-block;
+	}
+		figure {
+			font-family:'Montserrat', sans-serif;
+			@include box;
+			a:hover {
+					background:black;
+					color: white;
+			}
+			img {
+				height: $thumbheight;
+				width: $thumbwidth;
+				padding: $headerpadding;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+			}
+		}
+		figcaption {
+			font-family: 'Montserrat', sans-serif;
+			font-size: $captionsize;
+		}
+
+}
+

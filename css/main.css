@@ -1,13 +1,49 @@
+figcaption {
+  font-family: 'Montserrat', sans-serif; }
+
 body {
   background-color: rgba(62, 139, 81, 0.59); }
+  body header {
+    text-align: center; }
+    body header h1 {
+      font-size: 40px;
+      font-family: 'Staatliches', cursive; }
+    body header h2 {
+      font-family: 'Montserrat', sans-serif; }
 
-img {
-  height: 25%;
-  width: 25%; }
+#love {
+  font-family: 'Sacramento', cursive;
+  font-size: 25px; }
 
-ul {
+#exquisite {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 20px;
+  text-align: center; }
+
+section div {
+  margin-left: auto;
+  margin-right: auto;
+  width: 48%;
   display: inline-block; }
-  ul li {
-    list-style: none; }
+section figure {
+  font-family: 'Montserrat', sans-serif;
+  background-color: white;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  border-radius: 15px; }
+  section figure a:hover {
+    background: black;
+    color: white; }
+  section figure img {
+    height: 25%;
+    width: 25%;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; }
+section figcaption {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; }
 
 /*# sourceMappingURL=main.css.map */
