@@ -1,6 +1,6 @@
-			figcaption {
-				font-family: 'Montserrat', sans-serif;
-			}
+figcaption {
+	font-family: 'Montserrat', sans-serif;
+}
 
 body {
 	background-color: $bgcolor;
@@ -29,10 +29,6 @@ body {
 
 section {
 	div {
-		margin-left: auto;
-	    margin-right: auto;
-	    width: 48%;
-	    display: inline-block;
 	}
 		figure {
 			font-family:'Montserrat', sans-serif;
@@ -46,9 +42,7 @@ section {
 				width: $thumbwidth;
 				padding: $headerpadding;
 				display: block;
-				margin-left: auto;
-				margin-right: auto;
-				width: 50%;
+
 			}
 		}
 		figcaption {
