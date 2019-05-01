@@ -1,5 +1,11 @@
 figcaption {
 	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: black;
+}
+
+a {
+	text-decoration: none;
 }
 
 body {
@@ -16,32 +22,69 @@ body {
 	}
 }
 
-#love {
-	font-family: 'Sacramento', cursive;
-	font-size: $subfontsize;
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
 }
 
-#exquisite {
-	font-family: 'Major Mono Display', monospace; 
-	font-size: $subfontexqisite;
-	text-align: $headeralign;
-}
+// #love {
+// 	font-family: 'Sacramento', cursive;
+// 	font-size: $subfontsize;
+// 	text-align: $headeralign;
 
+// }
+
+// #exquisite {
+// 	font-family: 'Major Mono Display', monospace; 
+// 	font-size: $subfontexqisite;
+// 	text-align: $headeralign;
+// }
+
+// #bash {
+// 	text-align: $headeralign;	
+// }
+
+// #aframe {
+// 	font-family: 'Gugi', cursive;
+// 	text-align: $headeralign;
+// }
+
+// #spritesheet {
+// 	font-family: 'Anton', sans-serif;
+// 	text-align: $headeralign;
+
+// }
+
+// #spriteanim {
+// 	font-family: 'Anton', sans-serif;
+// 	text-align: $headeralign;
+// }
+
+// #customboil {
+// 	font-family: 'Open Sans Condensed', sans-serif;
+// 	font-size: $customsize;
+// 	text-align: $headeralign;
+// }
+
+// #parallax {
+// 	text-align: $headeralign;
+// }
 section {
 	div {
+		@include box;
 	}
 		figure {
-			font-family:'Montserrat', sans-serif;
-			@include box;
-			a:hover {
-					background:black;
-					color: white;
-			}
+				font-family: 'Zilla Slab', serif;
+				font-size: $customsize;
+				color: black;
 			img {
-				height: $thumbheight;
-				width: $thumbwidth;
+				height: 4em;
+				width: auto;
+				// height: $thumbheight;
+				// width: $thumbwidth;
 				padding: $headerpadding;
-				display: block;
 
 			}
 		}
@@ -49,6 +92,98 @@ section {
 			font-family: 'Montserrat', sans-serif;
 			font-size: $captionsize;
 		}
-
 }
+
+#github {
+	padding: 5%;
+	font-family: 'Zilla Slab', serif;
+	color: black;
+	font-size: 1.2em;
+}
+#github:hover {
+  color: #f3d406bd;
+}
+.halfwidth {
+	margin: 2%;
+	width: 38%;
+	padding: 2%;
+	display: inline-block;
+	text-align: center;
+}
+
+.halfwidth:hover {
+  background: #f3d40682;
+	figure {
+		color: black;
+	}
+	figcaption {
+		color: black;
+	}
+}
+
+
+.fullwidth {
+	width: 98%;
+	// padding: 2%;
+	text-align: center;
+}
+
+// #loveletter {
+// 	height: 60px;
+// 	width: auto;
+// }
+
+// figcaption {
+// 	font-family: 'Montserrat', sans-serif;
+// }
+
+// body {
+// 	background-color: $bgcolor;
+// 	header {
+// 	text-align: $headeralign;
+// 		h1 {
+// 			font-size: $headersize;
+// 			font-family: 'Staatliches', cursive;
+// 		}
+// 		h2 {
+// 			font-family: 'Montserrat', sans-serif;
+// 		}
+// 	}
+// }
+
+// #love {
+// 	font-family: 'Sacramento', cursive;
+// 	font-size: $subfontsize;
+// }
+
+// #exquisite {
+// 	font-family: 'Major Mono Display', monospace; 
+// 	font-size: $subfontexqisite;
+// 	text-align: $headeralign;
+// }
+
+// section {
+// 	div {
+// 	}
+// 		figure {
+// 			font-family:'Montserrat', sans-serif;
+// 			@include box;
+// 			a:hover {
+// 					background:black;
+// 					color: white;
+// 			}
+// 			img {
+// 				height: $thumbheight;
+// 				width: $thumbwidth;
+// 				padding: $headerpadding;
+// 				display: block;
+
+// 			}
+// 		}
+// 		figcaption {
+// 			font-family: 'Montserrat', sans-serif;
+// 			font-size: $captionsize;
+// 		}
+
+// }
 

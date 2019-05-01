@@ -1,21 +1,20 @@
-.site{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	grid-template-areas: 
-		"head head"
-		"main main"
-		"foot foot";
-}
+// .site{
+// 	display: grid;
+// 	grid-template-columns: repeat(2, 1fr);
+// 	grid-template-areas: 
+// 		"head head"
+// 		"main main"
+// 		"foot foot";
+// }
 
-.masthead {
-	grid-area: head;
-}
+// .masthead {
+// 	grid-area: head;
+// }
 
-.main-content {
-	grid-area: main;
-}
+// .main-content {
+// 	grid-area: main;
+// }
 
-.footer-content {
-	grid-area: foot; 
-}
+// .footer-content {
+// 	grid-area: foot; 
+// }

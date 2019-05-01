@@ -1,58 +1,85 @@
 figcaption {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
 
 body {
-/*  background-color: rgba(62, 139, 81, 0.59); }
-*/  
-    background-color: #9d9c9c;
+  background-color: #fbeaeb;
 }
 body header {
-    text-align: center; }
-    body header h1 {
-      font-size: 40px;
-      font-family: 'Staatliches', cursive; }
-    body header h2 {
-      font-family: 'Montserrat', sans-serif; }
+  text-align: center;
+}
+body header h1 {
+  font-size: 40px;
+  font-family: 'Staatliches', cursive;
+}
+body header h2 {
+  font-family: 'Montserrat', sans-serif;
+}
 
-#love {
-  font-family: 'Sacramento', cursive;
-  font-size: 25px; }
-
-#exquisite {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 20px;
-  text-align: center; }
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
 
 section div {
-  margin-left: auto;
-  margin-right: auto;
-  width: 48%;
-  display: inline-block; }
-section figure {
-  font-family: 'Montserrat', sans-serif;
   background-color: white;
-  border: 2px solid lightgrey;
+  border: 2px solid #837e7e;
   padding: 15px;
-  text-align: center;
-  border-radius: 15px; }
-  section figure:hover {
-    background-color:#e1e3ddde;
- }
-  section figure img {
-    height: 75%;
-    width: 25%;
-    padding: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; }
+  border-radius: 15px;
+}
+section figure {
+  font-family: 'Zilla Slab', serif;
+  font-size: 1.4em;
+  color: black;
+}
+section figure img {
+  height: 4em;
+  width: auto;
+  padding: 10px;
+}
 section figcaption {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px; }
-  a {
-    text-decoration: none;
-  }
-  footer {
-    font-family: 'Montserrat', sans-serif;
-  }
+  font-size: 14px;
+}
 
-/*# sourceMappingURL=main.css.map */
+#github {
+  padding: 5%;
+  font-family: 'Zilla Slab', serif;
+  color: black;
+  font-size: 1.2em;
+}
+
+#github:hover {
+  color: #f3d406bd;
+}
+
+.halfwidth {
+  margin: 2%;
+  width: 38%;
+  padding: 2%;
+  display: inline-block;
+  text-align: center;
+}
+
+.halfwidth:hover {
+  background: #f3d40682;
+}
+.halfwidth:hover figure {
+  color: black;
+}
+.halfwidth:hover figcaption {
+  color: black;
+}
+
+.fullwidth {
+  width: 98%;
+  text-align: center;
+}
