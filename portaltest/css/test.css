@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  background-color: #fbeaeb;
+  background-color: rgb(251, 234, 235);
 }
 body header {
   text-align: center;
@@ -26,37 +26,43 @@ body header h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
 }
 
-div div {
+div {
   background-color: white;
   border: 2px solid #837e7e;
   padding: 15px;
   border-radius: 15px;
 }
-div figure {
+section figure {
   font-family: 'Zilla Slab', serif;
   font-size: 1.4em;
   color: black;
 }
-div figure img {
+section figure img {
   height: 4em;
   width: auto;
   padding: 10px;
 }
-div figcaption {
+
+a {
+    font-family: 'Zilla Slab', serif;
+
+}
+section figcaption {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
 }
 
-#extras {
+#github {
   padding: 5%;
   font-family: 'Zilla Slab', serif;
   color: black;
   font-size: 1.2em;
 }
 
-#extras:hover {
+#github:hover {
   color: #f3d406bd;
 }
 
@@ -80,14 +86,6 @@ div figcaption {
 .halfwidth:hover img {
   -webkit-animation: vibrate-1 0.3s linear 2 both;
   animation: vibrate-1 0.3s linear 2 both;
-}
-
-.footer-content {
-  padding: 2%;
-  font-family: 'Zilla Slab', serif;
-  color: black;
-  font-size: 1.2em;
-  text-align: center;
 }
 
 .fullwidth {

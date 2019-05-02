@@ -26,7 +26,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin: auto;
 }
 
 // #love {
@@ -71,9 +70,14 @@ body {
 // #parallax {
 // 	text-align: $headeralign;
 // }
-section {
+div {
 	div {
-		@include box;
+		background-color: white;
+	border: 2px solid #837e7e;
+	padding: 15px;
+		border-radius: 15px;
+
+	
 	}
 		figure {
 				font-family: 'Zilla Slab', serif;
@@ -95,13 +99,13 @@ section {
 		}
 }
 
-#github {
+#extras {
 	padding: 5%;
 	font-family: 'Zilla Slab', serif;
 	color: black;
 	font-size: 1.2em;
 }
-#github:hover {
+#extras:hover {
   color: #f3d406bd;
 }
 .halfwidth {
@@ -136,6 +140,13 @@ section {
 			
 }
 
+.footer-content {
+	padding: 2%;
+	font-family: 'Zilla Slab', serif;
+	color: black;
+	font-size: 1.2em;
+	text-align: center;
+}
 
 .fullwidth {
 	width: 98%;
@@ -223,6 +234,8 @@ section {
             transform: translate(0);
   }
 }
+
+
 
 
 
